@@ -40,6 +40,7 @@ dependencies {
 //    apiElements("org.springframework.boot:spring-boot-starter-log4j")
 
     implementation('com.alibaba:druid:1.1.12')
+//    implementation('org.flywaydb:flyway-core')
 
     implementation('org.springframework.boot:spring-boot-devtools')
     implementation('mysql:mysql-connector-java')
