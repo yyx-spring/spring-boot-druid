@@ -46,6 +46,13 @@ public class HelloController {
     @ResponseBody
     public String test() {
         return applicationProperties.getTest1() + "/" + applicationProperties.getTest2() + "/" + applicationProperties.getTest3();
+//        return "Good Job";
+    }
+
+
+    @GetMapping("/index")
+    public String index() {
+        return "index";
     }
 }
 
